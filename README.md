@@ -49,7 +49,13 @@ GitExplore includes a guided tour feature powered by Shepherd.js. To start the t
 
 Will be available soon
 
+## Use Cases
 
+1. **Discover Popular Repositories**: Users can discover the most popular repositories in their preferred programming language. By selecting a language and sorting by stars, users can quickly find highly-rated projects.
+
+2. **Explore Topic-Specific Repositories**:  Users interested in specific topics can enter a topic in the search form to find repositories related to that topic. This is useful for finding projects in niche areas or specific domains.
+
+3. **Open Source Contribution**: As an open-source enthusiast, you can use GitExplore to find projects that need contributions. By exploring repositories with specific topics or sorting by forks, you can identify projects that are active and might benefit from your contributions. This aligns with GitExplore's mission to support and foster open-source development.
 
 ## Getting Started
 
