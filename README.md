@@ -25,7 +25,12 @@ GitExplore is a web application that allows you to discover and explore top GitH
 
 
 ## Shepherd.js Guided Tour
+
 GitExplore includes a guided tour feature powered by Shepherd.js. To start the tour, click the "Start Tour 🐏" button located at the top of the page.
+
+## Demo
+
+https://github.com/Sgvkamalakar/GitExplore/assets/103712713/913507cf-7f5d-4ffe-8dc4-d316d0aba166
 
 ## Screenshots
 
@@ -45,9 +50,7 @@ GitExplore includes a guided tour feature powered by Shepherd.js. To start the t
 
 ----
 
-## Demo
 
-Will be available soon
 
 ## Use Cases
 
