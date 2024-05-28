@@ -8,7 +8,7 @@ document.getElementById('repo-form').addEventListener('submit', function(e) {
   });
   
   async function fetchRepos(language,topic='',sort) {
-    const GITHUB_TOKEN = 'GITHUB_PA_TOKEN';
+    const GITHUB_TOKEN = process.env.TOKEN;;
     const headers = { 'Authorization': `token ${GITHUB_TOKEN}` };
     let query = `language:${language}+stars:>0`;
 
