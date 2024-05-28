@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Repos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shepherd.js/dist/css/shepherd.css">
+  <link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>GitExplore</h1>
+    <h4><i>Discover... Explore... Code...</i></h4>
+
+    <button id="start-tour-btn">Start Tour 🐏</button>
+    <div id="repo-container" class="repo-container">
+      <form id="repo-form">
+        <label for="language">Select Language:</label>
+
+        <select id="language" name="language">
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="go">Go</option>
+          <option value="java">Java</option>
+          <option value="typescript">TypeScript</option>
+          <option value="c#">C#</option>
+          <option value="cpp">C++</option>
+          <option value="php">PHP</option>
+          <option value="shell">Shell</option>
+          <option value="c">C</option>
+          <option value="ruby">Ruby</option>
+        </select>
+
+        <label for="topic-text">Topic:</label>
+        <input type="text" id="topic-text" name="topic" placeholder="Topic (optional)">
+
+        <label for="sort">Sort By</label>
+        <select id="sort" name="sort">
+          <option value="stars">Stars</option>
+          <option value="forks">Forks</option>
+        </select>
+
+        <button type="submit">Search</button>
+
+      </form>
+      
+
+      <div id="form" class="form"></div>
+      <div id="repos" class="repos"></div>
+
+    </div>
+  </div>
+
+    <footer class="footer">
+      <p>Made with GitHub API and Shepherd JS 🐏</p>
+    </footer>
+    <script src="scripts.js"></script>
+  <script src="tour.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/shepherd.js/dist/js/shepherd.min.js"></script>
+</body>
+</html>
