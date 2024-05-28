@@ -1,3 +1,6 @@
+
+const GITHUB_TOKEN = CONFIG.GITHUB_TOKEN;
+console.log(GITHUB_TOKEN);
 document.getElementById('repo-form').addEventListener('submit', function(e) {
     e.preventDefault();
     const language = document.getElementById('language').value;
@@ -6,9 +9,9 @@ document.getElementById('repo-form').addEventListener('submit', function(e) {
 
     fetchRepos(language,topic,sort);
   });
-  
+
+
   async function fetchRepos(language,topic='',sort) {
-    const GITHUB_TOKEN = process.env.TOKEN;
     const headers = { 'Authorization': `token ${GITHUB_TOKEN}` };
     let query = `language:${language}+stars:>0`;
 
@@ -32,13 +35,7 @@ document.getElementById('repo-form').addEventListener('submit', function(e) {
 
   
   function displayRepos(repos) {
-    fetch('https://api.github.com/events')
-  .then(response => response.json())
-  .then(data => {
-    console.log('Open Source Events:', data);
-  })
-  .catch(error => console.error('Error fetching open-source events:', error));
-
+    
     const reposContainer = document.getElementById('repos');
     reposContainer.innerHTML = ``;
 
