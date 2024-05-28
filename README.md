@@ -60,4 +60,4 @@ To get started with GitExplore, follow these steps:
    ```bash
    git clone https://github.com/your-username/gitexplore.git
    ```
-2. Obtain a GitHub Personal Access Token and replace 'GITHUB_PA_TOKEN' in script.js with your token.
+2. Obtain a GitHub Personal Access Token and replace 'process.env.TOKEN' in script.js with your token.
