@@ -1,6 +1,4 @@
-
 const GITHUB_TOKEN = CONFIG.GITHUB_TOKEN;
-console.log(GITHUB_TOKEN);
 document.getElementById('repo-form').addEventListener('submit', function(e) {
     e.preventDefault();
     const language = document.getElementById('language').value;
