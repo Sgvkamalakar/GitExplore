@@ -51,7 +51,6 @@ https://github.com/Sgvkamalakar/GitExplore/assets/103712713/913507cf-7f5d-4ffe-8
 ----
 
 
-
 ## Use Cases
 
 1. **Discover Popular Repositories**: Users can discover the most popular repositories in their preferred programming language. By selecting a language and sorting by stars, users can quickly find highly-rated projects.
@@ -69,4 +68,8 @@ To get started with GitExplore, follow these steps:
    ```bash
    git clone https://github.com/your-username/gitexplore.git
    ```
-2. Obtain a GitHub Personal Access Token and replace 'process.env.TOKEN' in script.js with your token.
+2. Obtain a GitHub Personal Access Token and replace in `config.js` with your token.
+3. Open `index.html` in your local server.
+
+
+If you like the project, please vote on my submission: [Vote for GitExplore](https://quine.sh/repo/Sgvkamalakar-GitExplore-807012361?utm_source=copy&utm_share_context=quests_creators)
