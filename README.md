@@ -72,4 +72,4 @@ To get started with GitExplore, follow these steps:
 3. Open `index.html` in your local server.
 
 
-If you like the project, please vote on my submission: [Vote for GitExplore](https://quine.sh/repo/Sgvkamalakar-GitExplore-807012361?utm_source=copy&utm_share_context=quests_creators)
+If you like the project, please vote on my submission: [Vote for GitExplore](https://quine.sh/repo/Sgvkamalakar-GitExplore-807012361)
