@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Sgvkamalakar/GitExplore/assets/103712713/bf454804-7811-4555-96d0-c1221a2cee24"/>
+</p>
+
 # GitExplore
 
 GitExplore is a web application that allows you to discover and explore top GitHub repositories based on programming language, topics, and sorting options.
